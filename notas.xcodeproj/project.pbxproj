@@ -13,6 +13,9 @@
 		EBD3048F296DAA320053ECA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD3048E296DAA320053ECA8 /* Preview Assets.xcassets */; };
 		EBD30491296DAA320053ECA8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD30490296DAA320053ECA8 /* Persistence.swift */; };
 		EBD30494296DAA320053ECA8 /* notas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBD30492296DAA320053ECA8 /* notas.xcdatamodeld */; };
+		EBD3049D296DAC900053ECA8 /* NotasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3049C296DAC900053ECA8 /* NotasViewModel.swift */; };
+		EBD3049F296DAE090053ECA8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3049E296DAE090053ECA8 /* Home.swift */; };
+		EBD304A1296DAE290053ECA8 /* AddNotaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD304A0296DAE290053ECA8 /* AddNotaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		EBD3048E296DAA320053ECA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBD30490296DAA320053ECA8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		EBD30493296DAA320053ECA8 /* notas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notas.xcdatamodel; sourceTree = "<group>"; };
+		EBD3049C296DAC900053ECA8 /* NotasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasViewModel.swift; sourceTree = "<group>"; };
+		EBD3049E296DAE090053ECA8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EBD304A0296DAE290053ECA8 /* AddNotaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,8 @@
 		EBD30486296DAA300053ECA8 /* notas */ = {
 			isa = PBXGroup;
 			children = (
+				EBD3049B296DAC590053ECA8 /* View */,
+				EBD3049A296DAC420053ECA8 /* ViewModel */,
 				EBD30487296DAA300053ECA8 /* notasApp.swift */,
 				EBD30489296DAA300053ECA8 /* ContentView.swift */,
 				EBD3048B296DAA320053ECA8 /* Assets.xcassets */,
@@ -71,6 +79,23 @@
 				EBD3048E296DAA320053ECA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBD3049A296DAC420053ECA8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EBD3049C296DAC900053ECA8 /* NotasViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EBD3049B296DAC590053ECA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBD3049E296DAE090053ECA8 /* Home.swift */,
+				EBD304A0296DAE290053ECA8 /* AddNotaView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +171,10 @@
 				EBD30491296DAA320053ECA8 /* Persistence.swift in Sources */,
 				EBD3048A296DAA300053ECA8 /* ContentView.swift in Sources */,
 				EBD30488296DAA300053ECA8 /* notasApp.swift in Sources */,
+				EBD3049D296DAC900053ECA8 /* NotasViewModel.swift in Sources */,
+				EBD3049F296DAE090053ECA8 /* Home.swift in Sources */,
 				EBD30494296DAA320053ECA8 /* notas.xcdatamodeld in Sources */,
+				EBD304A1296DAE290053ECA8 /* AddNotaView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
